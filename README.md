@@ -63,6 +63,12 @@ cert1.pem  chain1.pem  fullchain1.pem  privkey1.pem
 
 설정에서 내가 사용하고자 하는 IP로 바꿈 ( Node 서버가 돌아가는 PC IP )
 
+windows의 경우 IP 수정 후 다음 터미널에서 명령어를 실행
+
+```
+ipconfig /flushdns
+```
+
 그 인증서를 사용해서 node 서버를 구현한다.
 
 
